@@ -6,3 +6,4 @@ _*currently only supports for AES-ECB with hardcoded static key, will add more c
 
 ## Contributors
 - Clario "Fejka" Johan
+- Crisdeo "Kisanak" Siahaan
