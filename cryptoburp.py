@@ -88,7 +88,7 @@ def AES_ECB(string, key, data, headers, body, isRequest, mode):
         cipher.init(Cipher.ENCRYPT_MODE, key)
         encrypted = cipher.doFinal(string)
         encrypted = base64.b64encode(encrypted)
-        return base64.b64encode(encrypted)
+        return encrypted
     elif mode == "Decrypt|Decode":
         cipher.init(Cipher.DECRYPT_MODE, key)
         decrypted = cipher.doFinal(base64.b64decode(string))
